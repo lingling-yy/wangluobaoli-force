@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+*{background-color:#000000}
+			body{background-repeat: no-repeat;
+				 color: aqua;
+				 font-family:STHeiti;}
+			footer{text-align: center;
+				   color: aliceblue;}
+			ul{height: 100px;
+			   width: 100%;
+			   list-style-type: none;
+			   font-size: 30px;}
+			ul li{float: left;
+				  margin-left: 180px;
+				  margin-bottom: 0px;
+				  text-align: center;
+				  color: #FFFFFF;
+				  list-style:none;
+				  float:left;
+				  border-right: 1px solid #2E3235;
+				  position: relative;
+				  background:#555D5F; }
+			dd{margin-top:-40px;
+				opacity:0;
+				width:145px;
+				-webkit-transition-property:all;
+				-moz-transition-property: all;}
+			li:hover dd{margin-top:0;
+				        opacity:1;}
+			li dd:nth-child(1){-webkit-transition-duration: 0.1s;
+				               -moz-transition-duration: 0.1s;}
+			li dd:nth-child(2){-webkit-transition-duration: 0.2s;
+				-moz-transition-duration: 0.2s;}
+			.title{text-align: center;
+				   font-family: STHeiti;
+				   font-size: 50px;
+				   color: aliceblue;}
+			.main{font-size: 25px;
+				 text-indent: 36px;
+				 font-family: HeiTi;
+			     }
+			.emphasize{color: #ED0004;
+					   font-size: 25px;
+			          }
+			table{border-spacing:40px;
+				  table-layout: fixed;
+				  margin: auto;
+				 }
+			td{font-size: 20px;
+			   color: aliceblue;}
+			th{font-size: 25px;
+			   color:aqua;}
+			.left{float: left;
+				  font-size: 20px;
+				  font-family: STCaiyun;
+				  }
+			div.first{background: #FEFEFE;
+					  filter: alpha(opacity=60);
+					  opacity: 0.9;
+					  width: 1500px;height: 1000px;
+					  text-align: center;
+			         }
+			.one{float:left;
+				 width: 450px;
+				 font-size: 20px;
+				 border: #000000;
+				 margin: 15px;
+				 letter-spacing: 8px;}
+			img{wbkit-filter:grayscale(1);
+				filter: gray;
+				filter: grayscale(1);
+			   }
+			a:link{color: aliceblue;}            /*未访问的链接*/
+			a:visited{color: #FFFFFF;}           /*已访问的链接*/
+			a:hover{color:aqua;}             /*鼠标移到链接上*/
+			a:active{color:#FF0004;}             /*鼠标按下的瞬间*/
+			a{cursor: pointer;}                  /*鼠标在链接上是手的形状*/
+			th{cursor: crosshair;}               /*鼠标在文字上是十字形*/
+			div img{cursor: zoom-in;             /*鼠标在图片上是放大镜*/
+					transition: all 0.5s;}            
+		   div img:hover{transform: scale(1.4);} /*图片放大1.4倍*/
+
